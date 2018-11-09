@@ -2,11 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=20, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Introduction to Git</title>
 </head>
 <body>
-    
+    <h1>本地使用Git</h1>
+    <hr/>
+    <h2>1. git init</h2>
+    <p>建立本地仓库，输入ls -la，可以看到.git目录。</p>
+    <h2>2. git add</h2>
+    <p>创建文件后，git add可以将文件添加到暂存区。<br/>
+        git add 文件名 -- 一个一个添加<br/>
+        git add . -- 当前目录变动的全部添加</p>
+    <h2>3. git commit -m</h2>
+    <p>将添加过的内容提交到本地仓库，并添加一些注释信息。<br/>
+        git commit 文件名 -m -- 一个一个提交<br/>
+        git commit . -m -- 全部添加</p>
 </body>
 </html>
