@@ -1,5 +1,5 @@
 if [ -d $1 ]; then
-  echo 'error: dir exists'
+  echo "error: dir exists"
   exit
 else
 mkdir $1
